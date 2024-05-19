@@ -1,0 +1,82 @@
+.wrap {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  position: relative;
+}
+ul {
+  display: flex;
+
+  overflow: hidden;
+  width: 500px;
+}
+ul li {
+  margin-right: 10px;
+}
+ul li img {
+  width: 90px;
+  height: 90px;
+}
+ul li.on img {
+  border: 3px solid red;
+}
+.bigimg {
+}
+.bigimg > div {
+  display: flex;
+  margin-bottom: 30px;
+}
+.bigimg h2 {
+  font-size: 22px;
+  margin-right: 400px;
+}
+.bigimg p {
+  font-size: 22px;
+}
+.bigimg img {
+  width: 500px;
+  height: 350px;
+  margin-bottom: 50px;
+}
+
+.text {
+  margin-left: 100px;
+}
+.acco {
+  margin-top: 40px;
+}
+dt {
+  h3 {
+    font-size: 30px;
+  }
+  &.on {
+    color: red;
+    font-weight: 500;
+  }
+}
+dd {
+  white-space: pre-wrap;
+  overflow: hidden;
+  height: 0;
+  width: 600px;
+
+  transition: 0.5s;
+  p {
+    font-size: 20px;
+  }
+  &.on {
+    height: 100px;
+    border-bottom: 1px solid #000;
+  }
+}
+.icon {
+  display: flex;
+  position: absolute;
+  bottom: -20%;
+  left: 30%;
+}
+.icon i {
+  font-size: 30px;
+  margin-right: 30px;
+  border: 1px solid #000;
+}
